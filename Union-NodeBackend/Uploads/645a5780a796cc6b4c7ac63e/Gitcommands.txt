@@ -1,0 +1,9 @@
+To add stuff:
+git add *
+git commit -m ‘A message’
+git push -u origin master
+
+To get updates:
+git pull
+To clone repo:
+git clone URL
