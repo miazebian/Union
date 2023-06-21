@@ -1,0 +1,32 @@
+:root {
+    --color1: #b2cdd8;
+    --color4: #404040;
+  }
+.slider-btn {
+    background: none;
+    border: none;
+    color: var(--color4);
+    font-size: 30px;
+    padding: 0;
+  }
+  
+  .slider-btn-left {
+    position: absolute;
+    left: 0;
+    margin-left: 23%;
+    margin-top: 4%;
+  }
+  
+  .slider-btn-right {
+    position: absolute;
+    right: 0;
+    margin-right:20%;
+    font-size: 30px;
+    margin-top: 4%;
+  }
+  
+
+  .home-h2{
+    margin-top:3%;
+    margin-left:20%;
+  }

@@ -1,0 +1,148 @@
+:root {
+  --color1:#b2cdd8;
+  --color2:#fed5cf;
+  --color3:#ffffff;
+  --color4:#404040;
+}
+
+.payment-div{
+  color: var(--color4);
+    position: fixed;
+    align-items: center;
+}
+
+.left-payment {
+  left: 0;
+  background-color: var(--color3);
+  margin:3%;
+  width:40%;
+  padding: 2%;
+  border-radius: 0.75rem;
+  margin-top: 0%;
+  margin-bottom: 5%;
+  height: 87%;
+}
+/* Control the right side */
+.right-payment {
+  right: 0;
+  margin: 3%;
+  background-color: var(--color3);
+  width:40%;
+  border-radius: 0.75rem;
+  padding: 2%;
+  margin-top: 0%;
+  margin-bottom: 5%;
+  height: 87%;
+
+}
+
+.centered-payment {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top:5%;
+  transform: translate(-50%, -50%);
+  width:80%;
+  height:70%;
+  background-color: var(--color1);
+  border-radius: 0.75rem;
+}
+
+.centered-payment h2 {
+  text-align: center;
+  margin-top:2%;
+  color:var(--color4);
+}
+
+.centered-payment h3 {
+  text-align: center;
+  margin-bottom:2%;
+  color:var(--color4);
+}
+
+.findperson .cn{
+    justify-content: flex-start;
+    margin-left: 0px;
+    margin-right: 0%;
+    height: 80%;
+    border: 1.6px solid var(--color4);
+}
+
+.findperson{
+  padding-top: 8%;
+  padding-left:5%;
+}
+
+.findperson .friend-suggestion-container .friend-list .friend-suggestion img {
+  width:25%;
+  height:25%;
+}
+
+
+.findperson .friend-suggestion-container .friend-list .friend-suggestion .button1{
+  font-size: 0rem;
+}
+
+.findperson .friend-suggestion-container .friend-list .friend-suggestion .button2{
+  font-size: 0rem;
+}
+
+.centered-payment::after {
+    content: "";
+    display: block;
+    border-left: 2px solid var(--color4);
+    height: 80%;
+    margin-top:2%;
+    margin-left: 50%;
+}
+
+.payment-input{
+  border-radius: 0.75rem;
+  padding: 1.5%;
+  border: 2px solid var(--color4);
+  margin-bottom: 2%;
+  width:90%;
+  margin-top:1%;
+}
+
+.payment-label{
+  padding: 2%;
+}
+
+.payment-btn{
+  border-radius: 0.75rem;
+  border: 2px solid var(--color4);
+  margin-bottom: 2%;
+  width:40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top:1%;
+  padding: 2%;
+  margin-right: 5%;
+  background-color: var(--color1);
+  color: var(--color4);
+  font-weight: 550;
+}
+
+.div-btn-payment{
+  display: flex;
+  flex-direction: column;
+  align-items:end;
+}
+
+.div-btn-payment1{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.div-btn-payment2{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding-top:5%;
+}

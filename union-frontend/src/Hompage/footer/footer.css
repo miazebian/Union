@@ -1,0 +1,21 @@
+:root {
+    --color1:#b2cdd8;
+    --color2:#fed5cf;
+    --color3:#ffffff;
+    --color4:#404040;
+  }
+
+.footer {
+    background-color: var(--color4);
+    color: var(--color3);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5rem;
+  }
+  .footer_section {
+    padding: 0rem 3rem;
+  }
+
+  .footer_section-text {
+    padding: 3%;
+  }

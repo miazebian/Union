@@ -1,0 +1,166 @@
+:root {
+    --color1:#b2cdd8;
+    --color2:#fed5cf;
+    --color3:#ffffff;
+    --color4:#404040;
+    --color5:#9a7e88;
+  }
+
+  .cn{
+    border: var(--color4) 1px solid;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 15%;
+    margin-bottom:2%;
+    color:var(--color4);
+    background: none;
+    border-radius: 0.75em;
+  }
+
+  .friend-suggestion-container {
+    background: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+}
+  
+  .friend-suggestion-container .suggestion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding:2%;
+  }
+  
+  .friend-suggestion-container .suggestion-header h2 {
+    font-weight: normal;
+    font-size: 1.2rem;
+  }
+  
+  .friend-suggestion-container .suggestion-header button {
+    border: none;
+    background: none;
+    font-weight: normal;
+    font-size: 0.8rem;
+    color: var(--color4);
+    font-size: large;
+  }
+
+  .friend-suggestion-container .friend-list .friend-suggestion {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .friend-suggestion-container .friend-list .friend-suggestion img {
+    margin-right: 10%;
+    margin-left: -2%;
+    width: 15%;
+    height: 15%;
+    padding: 5px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-clip: padding-box, border-box;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, var(--color3) 50%, var(--color4)50%);
+    border-image-slice: 1;
+    background: none;
+}
+  
+.friend-suggestion-container .friend-list .friend-suggestion h4{
+    color: var(--color4);
+    padding-top:5%;
+    padding-bottom: 5%;
+  }
+  
+  .friend-suggestion-container .friend-list .friend-suggestion span1 {
+    font-size: 0.8rem;
+    color: var(--color4);
+    padding-top:10%;
+  }
+  
+  .friend-suggestion-container .friend-list .friend-suggestion button {
+    border: none;
+  background: none;
+  margin-left: auto;
+  font-weight: normal;
+  font-size: 0.8rem;
+    
+  }
+
+  .friend-suggestion-container .friend-list .friend-suggestion .button1 {
+    border: none;
+    background: none;
+    color: var(--color4);
+    font-weight: normal;
+    font-size: 105%;
+    cursor: pointer;
+  }
+  .button7{
+    border: none;
+    background: none;
+    color: var(--color4);
+    font-weight: normal;
+    font-size: 105%;
+    cursor: pointer;
+  }
+  .friend-suggestion-container .friend-list .friend-suggestion .button3 {
+    border: none;
+    background: none;
+    color: var(--color4);
+    font-weight: normal;
+    font-size: 105%;
+    cursor: pointer;
+  }
+
+  .friend-suggestion-container .friend-list .friend-suggestion .button2 {
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: var(--color4);
+    font-weight: normal;
+    font-size: 105%;
+  }
+    
+  .btn-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20%;
+  }
+  
+  .btn-cont1:hover{
+    background-color: var(--color3);
+    border-radius: 0.75rem;
+    padding:1%;
+  }
+  
+  .labelcont{
+    margin-left: 5%;
+    width: 50%;
+  }
+  
+  @media (max-width: 1120px) {
+    .labelcont .star-ratings{
+      display: none;
+    }
+  }
+
+  @media (max-width: 950px) {
+    .btn-cont {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 10%;
+    }
+    .labelcont{
+      font-size: medium;
+    }
+
+    .labelcont .star-ratings{
+      display: none;
+    }
+    .imagecont{
+      display: none;
+    }
+  }

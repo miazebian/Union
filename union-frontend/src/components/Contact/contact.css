@@ -1,0 +1,61 @@
+:root {
+    --color1: #b2cdd8;
+    --color2: #fed5cf;
+    --color3: #ffffff;
+    --color4: #404040;
+  }
+  
+.mainContactContainer{
+    width:20%;
+    background-color: var(--color5);
+    min-height:79.8vh;
+    float:left;
+}
+
+.searchforcontact{
+    width:70%;
+    height:5vh;
+    border-radius: 1rem;
+    background-color: var(--color4);
+    color: white;
+}
+
+.searchforcontact::placeholder{
+    color:white;
+}
+
+
+.Chatuserimage{
+    width: 20%;
+    height: 50px;
+    padding: 5px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-clip: padding-box, border-box;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, var(--color2) 50%, var(--color1)50%);
+    border-image-slice: 1;
+    background: none;
+    object-fit: cover;
+}
+
+.UserCont{
+    display: flex;
+    margin-left: 2%;
+    background-color: var(--color4);
+    padding: 3%;
+    border-radius: 1.5rem;
+    width:90%;
+    margin-top:3%;
+    margin-bottom: 3%;
+   
+}
+.usertext1{
+    margin-left: 3%;
+}
+
+
+.userDetailsCont{
+    height:73vh;
+    overflow: auto;
+    overflow-y: scroll;
+}
