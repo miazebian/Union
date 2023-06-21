@@ -3,10 +3,6 @@
     "nodemailer": "^6.9.1"
   }
   {
-    "name": "mern-deploy",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
     "scripts": {
       "install-server": "cd Union-NodeBackend && npm install",
       "start-server": "cd Union-NodeBackend && node app.js",
