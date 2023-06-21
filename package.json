@@ -1,17 +1,5 @@
-{
+
   "dependencies": {
     "nodemailer": "^6.9.1"
   }
-  {
-    "scripts": {
-      "install-server": "cd Union-NodeBackend && npm install",
-      "start-server": "cd Union-NodeBackend && node app.js",
-      "install-client": "cd union-frontend && npm install",
-      "build-client": "cd union-frontend && npm run build",
-      "start-client": "cd union-frontend && npm run start"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC"
-  }
-}
+ 
